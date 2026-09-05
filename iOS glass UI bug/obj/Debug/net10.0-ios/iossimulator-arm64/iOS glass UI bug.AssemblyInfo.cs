@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("iOS glass UI bug")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+a1846f0cf0e0ab3d8f5e51762f7956e888b9c9ed")]
 [assembly: System.Reflection.AssemblyProductAttribute("iOS glass UI bug")]
 [assembly: System.Reflection.AssemblyTitleAttribute("iOS glass UI bug")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
