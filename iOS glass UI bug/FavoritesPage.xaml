@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="iOS_glass_UI_bug.FavoritesPage">
+
+    <VerticalStackLayout
+        Padding="30"
+        Spacing="20"
+        VerticalOptions="Center">
+
+        <Image
+            Source="tab_favorites.png"
+            HeightRequest="80"
+            WidthRequest="80"
+            HorizontalOptions="Center" />
+
+        <Label
+            Text="Favorites"
+            FontSize="32"
+            FontAttributes="Bold"
+            HorizontalOptions="Center" />
+
+        <Label
+            Text="Your saved favorites appear here."
+            FontSize="16"
+            HorizontalOptions="Center"
+            HorizontalTextAlignment="Center" />
+
+    </VerticalStackLayout>
+
+</ContentPage>

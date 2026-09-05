@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="iOS_glass_UI_bug.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:iOS_glass_UI_bug"
+    Title="iOS_glass_UI_bug">
+
+    <!-- Shell is not used — app navigates via NavigationPage + TabbedPage (TabPageView)
+         to replicate the iService5 pattern where the Glass UI bug appears -->
+    <ShellContent
+        Title="Unused"
+        ContentTemplate="{DataTemplate local:MainPage}"
+        Route="MainPage" />
+
+</Shell>
